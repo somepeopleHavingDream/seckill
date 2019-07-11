@@ -8,6 +8,15 @@
     <name>seckill Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+        <!-- lombok -->
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
         <!-- 使用Junit -->
         <dependency>
